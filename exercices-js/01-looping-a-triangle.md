@@ -19,3 +19,12 @@ let abc = "abc";
 console.log(abc.length);
 // → 3
 ```
+```js
+Solution:
+
+let i = "#";
+while (i.length <= 7) {
+    console.log(i);
+    i = i + "#";
+}
+```
